@@ -1,0 +1,39 @@
+.panel__container {
+  display: flex;
+  overflow: hidden;
+  gap: 20px;
+  min-height: 300px;
+  margin: 0 25px;
+}
+
+.panel__item {
+  flex: 1;
+  padding: 20px;
+  gap: 15px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  transform: 0.5s, ease;
+}
+
+.active {
+  transform: translateX(0%);
+}
+
+.prev__btn,
+.next__btn {
+  max-width: 100px;
+  max-height: 50px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.prev__btn {
+  float: left;
+}
+
+.next__btn {
+  float: right;
+}
