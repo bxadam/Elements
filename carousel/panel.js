@@ -1,4 +1,4 @@
-const panels = document.querySelectorAll(".panel__panel");
+const panels = document.querySelectorAll(".panel__item");
 const prevBtn = document.querySelector(".prev__btn");
 const nextBtn = document.querySelector(".next__btn");
 let currentIndex = 0;
